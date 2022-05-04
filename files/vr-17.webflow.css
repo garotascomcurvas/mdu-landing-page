@@ -286,7 +286,7 @@
   overflow: hidden;
   /* padding-top: 80px; */
   padding-bottom: 0px;
-  background-image: url('../images/bg-vrc-6.png');
+  /* background-image: url('../images/bg-vrc-6.png'); */
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1714,7 +1714,7 @@
   color: #fd7823;
 }
 
-.dual-perini {
+.dual-siqueira {
   display: -ms-grid;
   display: grid;
   width: 70%;
@@ -2187,7 +2187,7 @@
   margin-top: 0px;
 }
 
-.fundo-perini {
+.fundo-siqueira {
   position: absolute;
   left: 0%;
   top: 0%;
@@ -3721,7 +3721,7 @@
   grid-row-gap: 24px;
 }
 
-.imagem-perini-hero {
+.imagem-siqueira-hero {
   position: relative;
   height: 100%;
 }
@@ -6324,7 +6324,7 @@
     margin-bottom: 14px;
   }
 
-  .dual-perini {
+  .dual-siqueira {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -7330,7 +7330,7 @@
     align-items: center;
   }
 
-  .dual-perini {
+  .dual-siqueira {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -7502,7 +7502,7 @@
     display: none;
   }
 
-  .fundo-perini {
+  .fundo-siqueira {
     display: none;
   }
 
@@ -7751,7 +7751,7 @@
     flex-direction: column;
   }
 
-  .imagem-perini {
+  .imagem-siqueira {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -11287,7 +11287,7 @@
 
 @font-face {
   font-family: 'DS - Digital';
-  src: url('../fonts/Bold---DS-DIGIB.woff2') format('woff2');
+  /* src: url('../fonts/Bold---DS-DIGIB.woff2') format('woff2'); */
   font-weight: 700;
   font-style: normal;
   font-display: swap;
