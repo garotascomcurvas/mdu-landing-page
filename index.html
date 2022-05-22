@@ -1241,12 +1241,12 @@ border-radius:10px;
                   <div class="tag-modulo"><strong>Tráfego Organico</strong></div>
                   <h3 class="heading-22"><strong class="bold-text-45">Network</strong></h3>
                   <ul role="list" class="list">
-                    <li>
+                    <!-- <li>
                       <div class="lista-item">Estratégia Pinterest: venda sem aparecer</div>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                       <div class="lista-item">TikTok orgânico: conteúdos estratégicos para vender</div>
-                    </li>
+                    </li> -->
                     <li>
                       <div class="lista-item">
                         <div class="lista-item">Stories e Posts criativos: como fazer</div>
@@ -1289,11 +1289,11 @@ border-radius:10px;
                         <div class="lista-item">Facebook e Instagram Ads</div>
                       </div>
                     </li>
-                    <li>
+                    <!-- <li>
                       <div class="lista-item">
                         <div class="lista-item">TikTok Ads</div>
                       </div>
-                    </li>
+                    </li> -->
                     <li>
                       <div class="lista-item">
                         <div class="lista-item">Parceria com Influenciadores</div>
@@ -1713,7 +1713,7 @@ border-radius:10px;
       </style>
 
       <h1 class="h2-title center mini-course-title">
-        Aprenda agora algumas estratégias no meu <span class="text-span-36">minicurso gratuito</span>
+        Passo a Passo Ao Vivo (e Prático) Que Usei Para Faturar <span class="text-span-36">R$ 30.548,25 Em 30 Dias</span> Na Internet E como Você pode Copiar o que Eu Fiz
       </h1>
 
       <div id="minicourse" class="mini-course-section wf-section">
@@ -2160,13 +2160,13 @@ em uma fábrica de milhas e ganhe uma renda extra com isso.<br></p>
                   <h3 class="heading-23">Crie Infoproduto</h3>
                   <p class="_16-p">Aprenda a se tornar um infoprodutor e criar seu próprio produto.<br></p>
                 </div>
-                <div id="w-node-_7e696769-4091-ce96-3199-5d88d7bc5cfa-5d5569f6" class="content-motivos">
+                <!-- <div id="w-node-_7e696769-4091-ce96-3199-5d88d7bc5cfa-5d5569f6" class="content-motivos">
                   <div class="icone-motivos">
                     <div class="sombra verde motivos"></div><img src="./files/icon-mudanca-vida.svg" loading="lazy" alt="">
                   </div>
                   <h3 class="heading-23">Avatar</h3>
                   <p class="_16-p">Aprenda nesse curso completo de avatar como você pode criar seu próprio avatar para poder personificar sua marca, aumentar sua audiência e personificar suas redes sociais vendendo muito e SEM APARECER!<br></p>
-                </div>
+                </div> -->
                 <div id="w-node-efaa24f9-dfc1-63cd-a667-a4ffad748f3c-5d5569f6" class="content-motivos">
                   <div class="icone-motivos">
                     <div class="sombra verde motivos"></div><img src="./files/icon-seguranca.svg" loading="lazy" alt="">
@@ -3403,6 +3403,666 @@ $cards
     },2500);
   });
 </script>
+
+<!-- POP UP -->
+
+<div id="popup" class="popup__wrapper">
+  <div class="overlay">
+    <div class="exit-overlay-container">
+      <div class="dy-popup-close"></div>
+  
+      <div class="exit-overlay-principal" data-v-b98d8c14="">
+        <div class="overlay-box1">
+          <h4>EBOOK GRATUITO</h4>
+          <h2>E-Book: Fundamentos de Copywriting</h2>
+          <p>Transforme seu produto/serviço em algo irresistível aumentando suas vendas. Os segredos de copy detalhados no curso mais assistido na Staage.</p>
+          <span>
+            <form class="infos_email_overlay">
+              <span><input type="text" name="name" placeholder="Seu nome" class="">
+                <small class="error_message_overlay"></small></span>
+                <span>
+                  <input type="email" name="Email" placeholder="Seu melhor e-mail" class="">
+                  <small class="error_message_overlay"></small>
+                </span>
+                <span>
+                  Ao clicar em "BAIXAR MATERIAL" você aceita receber informações por e-mail e concorda com as nossas políticas de privacidade.
+                </span>
+                <button class="cta-modal-button" disabled="disabled">
+                  <strong>Baixar material</strong>
+                </button>
+              </form>
+            </span>
+          </div>
+        <div class="overlay-box2">
+          <img src="/_nuxt/img/BG_Overlay_Desk.a350111.png" alt="BG Overlay" class="bg_overlay_desk">
+          <img src="/_nuxt/img/BG_Overlay_Tablet.579a479.png" alt="BG Overlay Tablet" class="bg_overlay_tablet">
+          <img src="/_nuxt/img/BG_Overlay_Mobile.879faf7.png" alt="BG Overlay Mobile" class="bg_overlay_mobile">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 
+<script>
+  // Declare the popup
+  const modal = document.getElementById("popup");
+
+  // Get the <span> element that closes the modal
+  const span = document.getElementsByClassName("close")[0];
+
+  function onMouseOut(event) {
+    // If the mouse is near the top of the window, show the popup
+    // Also, do NOT trigger when hovering or clicking on selects
+    if (
+      event.clientY < 50 &&
+      event.relatedTarget == null &&
+      event.target.nodeName.toLowerCase() !== 'select'
+    ) {
+      // Remove this event listener
+      document.removeEventListener("mouseout", onMouseOut);
+  
+      // Show the popup
+      console.log('entrou');
+      modal.style.display = "block";
+    }
+  }
+  
+  document.addEventListener("mouseout", onMouseOut);
+  $(".transparent-back").on('click',function(){
+    $('popup').fadeOut(300);
+  });
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script> -->
+
+<style>
+#popup {
+  display : none;
+}
+
+.popup__wrapper {
+  background : rgba(0, 0, 0, 0.75);
+  position : fixed;
+  top : 0px;
+  left : 0px;
+  bottom : 0px;
+  right : 0px;
+  z-index : 10;
+  border-radius : 25px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,.8);
+  display: flex;
+  z-index: 99999999
+}
+
+.exit-overlay-container {
+  width: 904px;
+  height: 573px;
+  background-color: #000;
+  margin: auto;
+  position: relative;
+  z-index: 99999;
+  display: flex;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
+  transition: box-shadow .2s;
+  opacity: 1;
+  -webkit-animation-name: dy-fadein;
+  animation-name: dy-fadein;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1
+}
+
+@media(max-width: 1024px) {
+  .exit-overlay-container {
+      width:706px;
+      height: 477px
+  }
+}
+
+@media(max-width: 480px) {
+  .exit-overlay-container {
+      width:90%;
+      height: auto;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      grid-gap: 40px;
+      gap: 40px
+  }
+}
+
+.exit-overlay-principal {
+  width: 100%;
+  display: flex;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
+  transition: box-shadow .2s;
+  -webkit-animation-name: dy-fadein;
+  animation-name: dy-fadein;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1
+}
+
+@media(max-width: 1024px) {
+  .exit-overlay-principal {
+      width:738px;
+      height: 646px;
+      display: grid;
+      grid-template-columns: 1fr 1fr
+  }
+}
+
+@media(max-width: 480px) {
+  .exit-overlay-principal {
+      width:90%;
+      height: auto;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      grid-gap: 40px;
+      gap: 40px
+  }
+}
+
+.exit-overlay-principal .dy-popup-close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 20px;
+  height: 20px;
+  transition: opacity .2s;
+  cursor: pointer;
+  z-index: 99
+}
+
+.exit-overlay-principal .dy-popup-close:hover {
+  opacity: 1
+}
+
+.exit-overlay-principal .dy-popup-close:after,.exit-overlay-principal .dy-popup-close:before {
+  position: absolute;
+  left: 10px;
+  content: "";
+  height: 20px;
+  width: 2px;
+  background-color: #fff
+}
+
+.exit-overlay-principal .dy-popup-close:before {
+  transform: rotate(45deg)
+}
+
+.exit-overlay-principal .dy-popup-close:after {
+  transform: rotate(-45deg)
+}
+
+.exit-overlay-principal .overlay-box1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+@media(max-width: 1024px) {
+  .exit-overlay-principal .overlay-box1 {
+      width:100%
+  }
+}
+
+@media(max-width: 480px) {
+  .exit-overlay-principal .overlay-box1 {
+      width:100%;
+      z-index: 999;
+      display: flex;
+      margin-top: -30px
+  }
+}
+
+.exit-overlay-principal .overlay-box1 h4 {
+  width: 378px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: .04em;
+  text-align: left;
+  background: linear-gradient(267.26deg,#ff9d57 -.71%,#f94144 130.41%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 8px
+}
+
+@media(max-width: 1024px) {
+  .exit-overlay-principal .overlay-box1 h4 {
+      width:324px
+  }
+}
+
+@media(max-width: 480px) {
+  .exit-overlay-principal .overlay-box1 h4 {
+      width:100%;
+      text-align: center
+  }
+}
+
+.exit-overlay-principal .overlay-box1 h2 {
+  width: 378px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 16px
+}
+
+@media(max-width: 1024px) {
+  .exit-overlay-principal .overlay-box1 h2 {
+      width:324px;
+      font-size: 20px;
+      line-height: 24px
+  }
+}
+
+@media(max-width: 480px) {
+  .exit-overlay-principal .overlay-box1 h2 {
+      width:200px;
+      text-align: center
+  }
+}
+
+.exit-overlay-principal .overlay-box1 p {
+  width: 378px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff;
+  opacity: .8;
+  margin-bottom: 40px
+}
+
+@media(max-width: 1024px) {
+  .exit-overlay-principal .overlay-box1 p {
+      width:324px;
+      font-size: 14px;
+      line-height: 21px
+  }
+}
+
+@media(max-width: 480px) {
+  .exit-overlay-principal .overlay-box1 p {
+      width:250px;
+      text-align: center;
+      margin-bottom: 0
+  }
+}
+
+.exit-overlay-principal .overlay-box1 .infos_email_overlay {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+  gap: 20px;
+  position: relative
+}
+
+@media(max-width: 1024px) {
+  .exit-overlay-principal .overlay-box1 .infos_email_overlay {
+      width:324px
+  }
+}
+
+@media(max-width: 480px) {
+  .exit-overlay-principal .overlay-box1 .infos_email_overlay {
+      display:flex;
+      flex-direction: column;
+      grid-gap: 13px;
+      gap: 13px;
+      margin-top: 24px;
+      align-items: center;
+      justify-content: center;
+      grid-gap: 16px;
+      gap: 16px
+  }
+}
+
+.exit-overlay-principal .overlay-box1 .infos_email_overlay input {
+  width: 377px;
+  height: 48px;
+  padding-left: 24px;
+  background: #1a1a1a;
+  color: #fff
+}
+
+@media(max-width: 1024px) {
+  .exit-overlay-principal .overlay-box1 .infos_email_overlay input {
+      width:324px
+  }
+}
+
+@media(max-width: 480px) {
+  .exit-overlay-principal .overlay-box1 .infos_email_overlay input {
+      width:305px;
+      height: 56px;
+      border-radius: 6px
+  }
+}
+
+.exit-overlay-principal .overlay-box1 .infos_email_overlay span {
+  width: 378px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #86868d
+}
+
+@media(max-width: 1024px) {
+  .exit-overlay-principal .overlay-box1 .infos_email_overlay span {
+      width:324px
+  }
+}
+
+.exit-overlay-principal .overlay-box1 .infos_email_overlay p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #86868d;
+  margin-top: 16px
+}
+
+.exit-overlay-principal .overlay-box1 .infos_email_overlay input.error_input_overlay {
+  border: 1px solid red
+}
+
+.exit-overlay-principal .overlay-box1 .infos_email_overlay small.error_message_overlay {
+  display: flex;
+  font-size: 15px;
+  color: red
+}
+
+.exit-overlay-principal .overlay-box1 .infos_email_overlay .fa-check {
+  color: #fff;
+  font-size: 20px;
+  -webkit-animation: fadein 1s;
+  animation: fadein 1s
+}
+
+@-webkit-keyframes fadein {
+  0% {
+      opacity: 0
+  }
+
+  to {
+      opacity: 1
+  }
+}
+
+@keyframes fadein {
+  0% {
+      opacity: 0
+  }
+
+  to {
+      opacity: 1
+  }
+}
+
+.exit-overlay-principal .overlay-box1 .infos_email_overlay .cta-modal-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 10px;
+  gap: 10px
+}
+
+.exit-overlay-principal .overlay-box1 .infos_email_overlay .cta-modal-button .loader {
+  border: 2px solid rgba(0,0,0,.1);
+  border-left-color: #fff;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite
+}
+
+.exit-overlay-principal .overlay-box1 .infos_email_overlay button {
+  width: 377px;
+  height: 48px;
+  background: #f3722c;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: center;
+  cursor: pointer
+}
+
+.exit-overlay-principal .overlay-box1 .infos_email_overlay button strong {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff
+}
+
+@media(max-width: 1024px) {
+  .exit-overlay-principal .overlay-box1 .infos_email_overlay button {
+      width:324px
+  }
+}
+
+@media(max-width: 480px) {
+  .exit-overlay-principal .overlay-box1 .infos_email_overlay button {
+      width:335px;
+      height: 56px;
+      border-radius: 6px;
+      margin-bottom: 32px
+  }
+}
+
+.exit-overlay-principal .overlay-box1 .infos_email_overlay button:disabled {
+  color: #000;
+  background: rgba(243,114,44,.38);
+  cursor: default
+}
+
+.exit-overlay-principal .overlay-box1 .infos_email_overlay button:disabled strong {
+  color: #000
+}
+
+.overlay-box2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+@media(max-width: 1024px) {
+  .overlay-box2 {
+      width:100%;
+      height: 100%
+  }
+}
+
+.overlay-box2 .bg_overlay_desk {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0
+}
+
+@media(max-width: 1024px) {
+  .overlay-box2 .bg_overlay_desk {
+      display:none
+  }
+}
+
+@media(max-width: 480px) {
+  .overlay-box2 .bg_overlay_desk {
+      display:none
+  }
+}
+
+.overlay-box2 .bg_overlay_tablet {
+  display: none
+}
+
+@media(max-width: 1024px) {
+  .overlay-box2 .bg_overlay_tablet {
+      display:flex;
+      position: absolute;
+      top: 0;
+      right: 0
+  }
+}
+
+@media(max-width: 480px) {
+  .overlay-box2 .bg_overlay_tablet {
+      display:none
+  }
+}
+
+.overlay-box2 .bg_overlay_mobile {
+  display: none
+}
+
+@media(max-width: 1024px) {
+  .overlay-box2 .bg_overlay_mobile {
+      display:none
+  }
+}
+
+@media(max-width: 480px) {
+  .overlay-box2 .bg_overlay_mobile {
+      display:flex
+  }
+}
+
+.overlay-box2 .box2-images {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+@media(max-width: 1024px) {
+  .overlay-box2 .box2-images {
+      width:100%
+  }
+}
+
+.overlay-box2 .box2-images img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative
+}
+
+@media(max-width: 480px) {
+  .overlay-box2 .box2-images img {
+      width:80%
+  }
+}
+
+.exit-overlay-container .dy-popup-close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 20px;
+  height: 20px;
+  transition: opacity .2s;
+  cursor: pointer;
+  z-index: 99
+}
+
+.exit-overlay-container .dy-popup-close {
+  opacity: 1
+}
+
+.exit-overlay-container .dy-popup-close {
+  position: absolute;
+  left: 10px;
+  content: "";
+  height: 20px;
+  width: 2px;
+}
+
+.exit-overlay-container .dy-popup-close:hover {
+  opacity: 1
+}
+
+.exit-overlay-container .dy-popup-close:after,
+.exit-overlay-container .dy-popup-close:before {
+  position: absolute;
+  left: 10px;
+  content: "";
+  height: 20px;
+  width: 2px;
+  background-color: #fff
+}
+
+.exit-overlay-container .dy-popup-close:before {
+  transform: rotate(45deg)
+}
+
+.exit-overlay-container .dy-popup-close:after {
+  transform: rotate(-45deg)
+}
+</style>
+
+<!-- FIM POP UP -->
+
 <div id="75d8b5610ba3cda7a6433b8b0b0b84ed"></div><div id="fb-root" class=" fb_reset fb_reset fb_reset fb_reset fb_reset fb_reset fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div><div id="cc--main" class="c--anim" style="position: fixed; z-index: 1000000;"><!--[if lt IE 9 ]><div id="cc_div" class="cc_div ie"></div><![endif]--><!--[if (gt IE 8)|!(IE)]><!--><div id="cc_div" class="cc_div"><div id="cm" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="c-ttl" aria-describedby="c-txt" class="cloud bottom center slide" style="visibility: hidden;"><div id="c-inr"><div id="c-inr-i"><div id="c-ttl" role="heading" aria-level="2">👋 É hora de cuidar da sua privacidade</div><div id="c-txt">Nosso site utiliza cookies para garantir o seu correto funcionamento e para um serviço personalizado  - Utilize o menu "Gerenciar Preferências" para configurar a coleta de cookies.</div></div><div id="c-bns"><button type="button" id="c-p-bn" class="c-bn">Aceitar Todos</button><button type="button" id="c-s-bn" class="c-bn c_link">Gerenciar Preferências</button></div></div></div><div id="cm-ov" style="visibility: hidden; opacity: 0;"></div><div id="s-cnt" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="s-ttl" class="bar left slide" style="visibility: hidden;"><div id="c-vln"><div id="cs"><div id="c-s-in"><div id="s-inr"><div id="s-hdr"><div id="s-ttl" role="heading"><div>Preferências de Cookies</div><div aria-hidden="true" style="font-size: .8em; font-weight: 200; color: #687278; margin-top: 5px;">Desenvolvido por <a tabindex="-1" aria-hidden="true" href="#" style="text-decoration: underline;">Mapa do Dinheiro Urgente</a></div></div><div id="s-c-bnc"><button type="button" id="s-c-bn" class="c-bn" aria-label="Fechar"></button></div></div><div id="s-bl"><div class="c-bl"><div class="title"><div class="b-tl" role="heading" aria-level="3">Uso de Cookies</div></div><div class="desc"><div class="p">Nosso site utiliza cookies para garantir o seu correto funcionamento e para um serviço personalizado  - Utilize o menu "Gerenciar Preferências" para configurar a coleta de cookies.</div></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-1">Cookies Obrigatórios</button></div><div class="desc b-acc" id="c-ac-1" aria-hidden="true"><div class="p">Os cookies necessários ajudam a tornar um site utilizável, permitindo funções básicas como navegação de página e acesso a áreas seguras do site. O site não pode funcionar corretamente sem esses cookies.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">G_ENABLED_IDPS</td><td data-column="Descrição">Cookie essencial utilizado para permitir a autenticação utilizando recursos do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="G_ENABLED_IDPS" disabled="" aria-readonly="true"><span class="c-tg c-ro" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Cookies Obrigatórios</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-2">Preferências</button></div><div class="desc b-acc" id="c-ac-2" aria-hidden="true"><div class="p">Os cookies preferenciais permitem que um site se lembre de informações que mudam a forma como o site se comporta ou se parece, como o seu idioma preferido ou a região em que você está.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">disqus_unique</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="disqus_unique"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr><tr><td data-column="Nome">ASP.NET_SessionId</td><td data-column="Descrição">Cookie de sessão de plataforma de uso geral, usado por sites escritos com tecnologias baseadas em Miscrosoft .NET. Normalmente usado para manter uma sessão de usuário anônima pelo servidor.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="ASP.NET_SessionId"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr><tr><td data-column="Nome">YSC</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="YSC"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-3">Estatísticas</button></div><div class="desc b-acc" id="c-ac-3" aria-hidden="true"><div class="p">Os cookies estatísticos ajudam os proprietários de sites a entender como os visitantes interagem com os sites, coletando e relatando informações anonimamente.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">_gid</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gid"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr><tr><td data-column="Nome">_ga</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ga"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr><tr><td data-column="Nome">_gat</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gat"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-4">Marketing</button></div><div class="desc b-acc" id="c-ac-4" aria-hidden="true"><div class="p">Os cookies de marketing são usados ​​para rastrear visitantes em websites. A intenção é exibir anúncios relevantes e atraentes para o usuário individual e, portanto, mais valiosos para editores e anunciantes terceirizados.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">VISITOR_INFO1_LIVE</td><td data-column="Descrição">Tenta estimar a largura de banda dos usuários em páginas com vídeos integrados do YouTube.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="VISITOR_INFO1_LIVE"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">test_cookie</td><td data-column="Descrição">Este cookie é definido pela DoubleClick (que é propriedade do Google) para determinar se o navegador do visitante do site suporta cookies.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="test_cookie"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">IDE</td><td data-column="Descrição">Este cookie é usado para segmentação, análise e otimização de campanhas publicitárias no pacote DoubleClick / Google Marketing</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="IDE"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">NID</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="NID"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">pxrc</td><td data-column="Descrição">Este cookie registra dados não pessoais sobre o visitante. A informação é usada para otimizar a relevância do anúncio.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="pxrc"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_fbp</td><td data-column="Descrição">Esse cookie é definido pelo Facebook para entregar anúncios quando eles estão no próprio Facebook ou em plataformas digitais alimentadas por anúncios do Facebook após a visita a esse website.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_fbp"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">prism_611277856</td><td data-column="Descrição">Esse cookie é definido pelo Active Campaign para guardar e rastrear interações no website</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="prism_611277856"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_ltuid</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ltuid"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_gcl_au</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gcl_au"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_gat_UA-191900295-1</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gat_UA-191900295-1"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_ga_011PWP31W8</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ga_011PWP31W8"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_dc_gtm_UA-191900295-1</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_dc_gtm_UA-191900295-1"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr></tbody></table></div></div><div class="c-bl"><div class="title"><div class="b-tl" role="heading" aria-level="3">Mais Informações</div></div><div class="desc"><div class="p">Seguimos a regulamentação da LGPD e por este motivo você pode solicitar mais informações sobre o uso dos seus dados, caso necessário utlize o <a class="cc-link" target="_blank" href="https://privacy.vocemaisrico.com/_f/">nosso formulário</a> e consulte também a nossa <a href="https://privacy.vocemaisrico.com/privacy/policy" class="cc-link" target="_blank">política de privacidade</a>.</div></div></div></div><div id="s-bns"><button type="button" id="s-all-bn" class="c-bn">Aceitar Todos</button><button type="button" id="s-sv-bn" class="c-bn">Salvar configuração atual</button></div></div></div></div></div></div><div id="cs-ov" style="visibility: hidden; opacity: 0;"></div></div><!--<![endif]--></div>
 <div id="cc--main" class="c--anim" style="position: fixed; z-index: 1000000;"><!--[if lt IE 9 ]><div id="cc_div" class="cc_div ie"></div><![endif]--><!--[if (gt IE 8)|!(IE)]><!--><div id="cc_div" class="cc_div"><div id="s-cnt" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="s-ttl" class="bar left slide" style="visibility: hidden;"><div id="c-vln"><div id="cs"><div id="c-s-in"><div id="s-inr"><div id="s-hdr"><div id="s-ttl" role="heading"><div>Preferências de Cookies</div><div aria-hidden="true" style="font-size: .8em; font-weight: 200; color: #687278; margin-top: 5px;">Desenvolvido por <a tabindex="-1" aria-hidden="true" href="#" style="text-decoration: underline;">Mapa do Dinheiro Urgente</a></div></div><div id="s-c-bnc"><button type="button" id="s-c-bn" class="c-bn" aria-label="Fechar"></button></div></div><div id="s-bl"><div class="c-bl"><div class="title"><div class="b-tl" role="heading" aria-level="3">Uso de Cookies</div></div><div class="desc"><div class="p">Nosso site utiliza cookies para garantir o seu correto funcionamento e para um serviço personalizado  - Utilize o menu "Gerenciar Preferências" para configurar a coleta de cookies.</div></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-1">Cookies Obrigatórios</button></div><div class="desc b-acc" id="c-ac-1" aria-hidden="true"><div class="p">Os cookies necessários ajudam a tornar um site utilizável, permitindo funções básicas como navegação de página e acesso a áreas seguras do site. O site não pode funcionar corretamente sem esses cookies.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">G_ENABLED_IDPS</td><td data-column="Descrição">Cookie essencial utilizado para permitir a autenticação utilizando recursos do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="G_ENABLED_IDPS" disabled="" aria-readonly="true"><span class="c-tg c-ro" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Cookies Obrigatórios</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-2">Preferências</button></div><div class="desc b-acc" id="c-ac-2" aria-hidden="true"><div class="p">Os cookies preferenciais permitem que um site se lembre de informações que mudam a forma como o site se comporta ou se parece, como o seu idioma preferido ou a região em que você está.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">disqus_unique</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="disqus_unique"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr><tr><td data-column="Nome">ASP.NET_SessionId</td><td data-column="Descrição">Cookie de sessão de plataforma de uso geral, usado por sites escritos com tecnologias baseadas em Miscrosoft .NET. Normalmente usado para manter uma sessão de usuário anônima pelo servidor.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="ASP.NET_SessionId"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr><tr><td data-column="Nome">YSC</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="YSC"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-3">Estatísticas</button></div><div class="desc b-acc" id="c-ac-3" aria-hidden="true"><div class="p">Os cookies estatísticos ajudam os proprietários de sites a entender como os visitantes interagem com os sites, coletando e relatando informações anonimamente.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">_gid</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gid"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr><tr><td data-column="Nome">_ga</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ga"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr><tr><td data-column="Nome">_gat</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gat"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-4">Marketing</button></div><div class="desc b-acc" id="c-ac-4" aria-hidden="true"><div class="p">Os cookies de marketing são usados ​​para rastrear visitantes em websites. A intenção é exibir anúncios relevantes e atraentes para o usuário individual e, portanto, mais valiosos para editores e anunciantes terceirizados.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">VISITOR_INFO1_LIVE</td><td data-column="Descrição">Tenta estimar a largura de banda dos usuários em páginas com vídeos integrados do YouTube.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="VISITOR_INFO1_LIVE"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">test_cookie</td><td data-column="Descrição">Este cookie é definido pela DoubleClick (que é propriedade do Google) para determinar se o navegador do visitante do site suporta cookies.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="test_cookie"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">IDE</td><td data-column="Descrição">Este cookie é usado para segmentação, análise e otimização de campanhas publicitárias no pacote DoubleClick / Google Marketing</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="IDE"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">NID</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="NID"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">pxrc</td><td data-column="Descrição">Este cookie registra dados não pessoais sobre o visitante. A informação é usada para otimizar a relevância do anúncio.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="pxrc"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_fbp</td><td data-column="Descrição">Esse cookie é definido pelo Facebook para entregar anúncios quando eles estão no próprio Facebook ou em plataformas digitais alimentadas por anúncios do Facebook após a visita a esse website.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_fbp"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">prism_611277856</td><td data-column="Descrição">Esse cookie é definido pelo Active Campaign para guardar e rastrear interações no website</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="prism_611277856"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_ltuid</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ltuid"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_gcl_au</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gcl_au"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_gat_UA-191900295-1</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gat_UA-191900295-1"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_ga_011PWP31W8</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ga_011PWP31W8"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_dc_gtm_UA-191900295-1</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_dc_gtm_UA-191900295-1"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr></tbody></table></div></div><div class="c-bl"><div class="title"><div class="b-tl" role="heading" aria-level="3">Mais Informações</div></div><div class="desc"><div class="p">Seguimos a regulamentação da LGPD e por este motivo você pode solicitar mais informações sobre o uso dos seus dados, caso necessário utlize o <a class="cc-link" target="_blank" href="https://privacy.vocemaisrico.com/_f/">nosso formulário</a> e consulte também a nossa <a href="https://privacy.vocemaisrico.com/privacy/policy" class="cc-link" target="_blank">política de privacidade</a>.</div></div></div></div><div id="s-bns"><button type="button" id="s-all-bn" class="c-bn">Aceitar Todos</button><button type="button" id="s-sv-bn" class="c-bn">Salvar configuração atual</button></div></div></div></div></div></div><div id="cs-ov" style="visibility: hidden; opacity: 0;"></div></div><!--<![endif]--></div>
 <div id="cc--main" style="position: fixed; z-index: 1000000;" class="c--anim"><!--[if lt IE 9 ]><div id="cc_div" class="cc_div ie"></div><![endif]--><!--[if (gt IE 8)|!(IE)]><!--><div id="cc_div" class="cc_div"><div id="s-cnt" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="s-ttl" class="bar left slide" style="visibility: hidden;"><div id="c-vln"><div id="cs"><div id="c-s-in"><div id="s-inr"><div id="s-hdr"><div id="s-ttl" role="heading"><div>Preferências de Cookies</div><div aria-hidden="true" style="font-size: .8em; font-weight: 200; color: #687278; margin-top: 5px;">Desenvolvido por <a tabindex="-1" aria-hidden="true" href="#" style="text-decoration: underline;">Mapa do Dinheiro Urgente</a></div></div><div id="s-c-bnc"><button type="button" id="s-c-bn" class="c-bn" aria-label="Fechar"></button></div></div><div id="s-bl"><div class="c-bl"><div class="title"><div class="b-tl" role="heading" aria-level="3">Uso de Cookies</div></div><div class="desc"><div class="p">Nosso site utiliza cookies para garantir o seu correto funcionamento e para um serviço personalizado  - Utilize o menu "Gerenciar Preferências" para configurar a coleta de cookies.</div></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-1">Cookies Obrigatórios</button></div><div class="desc b-acc" id="c-ac-1" aria-hidden="true"><div class="p">Os cookies necessários ajudam a tornar um site utilizável, permitindo funções básicas como navegação de página e acesso a áreas seguras do site. O site não pode funcionar corretamente sem esses cookies.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">G_ENABLED_IDPS</td><td data-column="Descrição">Cookie essencial utilizado para permitir a autenticação utilizando recursos do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="G_ENABLED_IDPS" disabled="" aria-readonly="true"><span class="c-tg c-ro" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Cookies Obrigatórios</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-2">Preferências</button></div><div class="desc b-acc" id="c-ac-2" aria-hidden="true"><div class="p">Os cookies preferenciais permitem que um site se lembre de informações que mudam a forma como o site se comporta ou se parece, como o seu idioma preferido ou a região em que você está.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">disqus_unique</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="disqus_unique"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr><tr><td data-column="Nome">ASP.NET_SessionId</td><td data-column="Descrição">Cookie de sessão de plataforma de uso geral, usado por sites escritos com tecnologias baseadas em Miscrosoft .NET. Normalmente usado para manter uma sessão de usuário anônima pelo servidor.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="ASP.NET_SessionId"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr><tr><td data-column="Nome">YSC</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="YSC"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-3">Estatísticas</button></div><div class="desc b-acc" id="c-ac-3" aria-hidden="true"><div class="p">Os cookies estatísticos ajudam os proprietários de sites a entender como os visitantes interagem com os sites, coletando e relatando informações anonimamente.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">_gid</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gid"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr><tr><td data-column="Nome">_ga</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ga"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr><tr><td data-column="Nome">_gat</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gat"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-4">Marketing</button></div><div class="desc b-acc" id="c-ac-4" aria-hidden="true"><div class="p">Os cookies de marketing são usados ​​para rastrear visitantes em websites. A intenção é exibir anúncios relevantes e atraentes para o usuário individual e, portanto, mais valiosos para editores e anunciantes terceirizados.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">VISITOR_INFO1_LIVE</td><td data-column="Descrição">Tenta estimar a largura de banda dos usuários em páginas com vídeos integrados do YouTube.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="VISITOR_INFO1_LIVE"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">test_cookie</td><td data-column="Descrição">Este cookie é definido pela DoubleClick (que é propriedade do Google) para determinar se o navegador do visitante do site suporta cookies.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="test_cookie"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">IDE</td><td data-column="Descrição">Este cookie é usado para segmentação, análise e otimização de campanhas publicitárias no pacote DoubleClick / Google Marketing</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="IDE"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">NID</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="NID"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">pxrc</td><td data-column="Descrição">Este cookie registra dados não pessoais sobre o visitante. A informação é usada para otimizar a relevância do anúncio.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="pxrc"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_fbp</td><td data-column="Descrição">Esse cookie é definido pelo Facebook para entregar anúncios quando eles estão no próprio Facebook ou em plataformas digitais alimentadas por anúncios do Facebook após a visita a esse website.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_fbp"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">prism_611277856</td><td data-column="Descrição">Esse cookie é definido pelo Active Campaign para guardar e rastrear interações no website</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="prism_611277856"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_ltuid</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ltuid"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_gcl_au</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gcl_au"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_gat_UA-191900295-1</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gat_UA-191900295-1"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_ga_011PWP31W8</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ga_011PWP31W8"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_dc_gtm_UA-191900295-1</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_dc_gtm_UA-191900295-1"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr></tbody></table></div></div><div class="c-bl"><div class="title"><div class="b-tl" role="heading" aria-level="3">Mais Informações</div></div><div class="desc"><div class="p">Seguimos a regulamentação da LGPD e por este motivo você pode solicitar mais informações sobre o uso dos seus dados, caso necessário utlize o <a class="cc-link" target="_blank" href="https://privacy.vocemaisrico.com/_f/">nosso formulário</a> e consulte também a nossa <a href="https://privacy.vocemaisrico.com/privacy/policy" class="cc-link" target="_blank">política de privacidade</a>.</div></div></div></div><div id="s-bns"><button type="button" id="s-all-bn" class="c-bn">Aceitar Todos</button><button type="button" id="s-sv-bn" class="c-bn">Salvar configuração atual</button></div></div></div></div></div></div><div id="cs-ov" style="visibility: hidden; opacity: 0;"></div></div><!--<![endif]--></div><div id="cc--main" style="position: fixed; z-index: 1000000;" class="c--anim"><!--[if lt IE 9 ]><div id="cc_div" class="cc_div ie"></div><![endif]--><!--[if (gt IE 8)|!(IE)]><!--><div id="cc_div" class="cc_div"><div id="s-cnt" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="s-ttl" class="bar left slide" style="visibility: hidden;"><div id="c-vln"><div id="cs"><div id="c-s-in"><div id="s-inr"><div id="s-hdr"><div id="s-ttl" role="heading"><div>Preferências de Cookies</div><div aria-hidden="true" style="font-size: .8em; font-weight: 200; color: #687278; margin-top: 5px;">Desenvolvido por <a tabindex="-1" aria-hidden="true" href="#" style="text-decoration: underline;">Mapa do Dinheiro Urgente</a></div></div><div id="s-c-bnc"><button type="button" id="s-c-bn" class="c-bn" aria-label="Fechar"></button></div></div><div id="s-bl"><div class="c-bl"><div class="title"><div class="b-tl" role="heading" aria-level="3">Uso de Cookies</div></div><div class="desc"><div class="p">Nosso site utiliza cookies para garantir o seu correto funcionamento e para um serviço personalizado  - Utilize o menu "Gerenciar Preferências" para configurar a coleta de cookies.</div></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-1">Cookies Obrigatórios</button></div><div class="desc b-acc" id="c-ac-1" aria-hidden="true"><div class="p">Os cookies necessários ajudam a tornar um site utilizável, permitindo funções básicas como navegação de página e acesso a áreas seguras do site. O site não pode funcionar corretamente sem esses cookies.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">G_ENABLED_IDPS</td><td data-column="Descrição">Cookie essencial utilizado para permitir a autenticação utilizando recursos do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="G_ENABLED_IDPS" disabled="" aria-readonly="true"><span class="c-tg c-ro" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Cookies Obrigatórios</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-2">Preferências</button></div><div class="desc b-acc" id="c-ac-2" aria-hidden="true"><div class="p">Os cookies preferenciais permitem que um site se lembre de informações que mudam a forma como o site se comporta ou se parece, como o seu idioma preferido ou a região em que você está.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">disqus_unique</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="disqus_unique"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr><tr><td data-column="Nome">ASP.NET_SessionId</td><td data-column="Descrição">Cookie de sessão de plataforma de uso geral, usado por sites escritos com tecnologias baseadas em Miscrosoft .NET. Normalmente usado para manter uma sessão de usuário anônima pelo servidor.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="ASP.NET_SessionId"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr><tr><td data-column="Nome">YSC</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="YSC"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-3">Estatísticas</button></div><div class="desc b-acc" id="c-ac-3" aria-hidden="true"><div class="p">Os cookies estatísticos ajudam os proprietários de sites a entender como os visitantes interagem com os sites, coletando e relatando informações anonimamente.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">_gid</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gid"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr><tr><td data-column="Nome">_ga</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ga"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr><tr><td data-column="Nome">_gat</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gat"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-4">Marketing</button></div><div class="desc b-acc" id="c-ac-4" aria-hidden="true"><div class="p">Os cookies de marketing são usados ​​para rastrear visitantes em websites. A intenção é exibir anúncios relevantes e atraentes para o usuário individual e, portanto, mais valiosos para editores e anunciantes terceirizados.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">VISITOR_INFO1_LIVE</td><td data-column="Descrição">Tenta estimar a largura de banda dos usuários em páginas com vídeos integrados do YouTube.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="VISITOR_INFO1_LIVE"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">test_cookie</td><td data-column="Descrição">Este cookie é definido pela DoubleClick (que é propriedade do Google) para determinar se o navegador do visitante do site suporta cookies.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="test_cookie"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">IDE</td><td data-column="Descrição">Este cookie é usado para segmentação, análise e otimização de campanhas publicitárias no pacote DoubleClick / Google Marketing</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="IDE"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">NID</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="NID"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">pxrc</td><td data-column="Descrição">Este cookie registra dados não pessoais sobre o visitante. A informação é usada para otimizar a relevância do anúncio.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="pxrc"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_fbp</td><td data-column="Descrição">Esse cookie é definido pelo Facebook para entregar anúncios quando eles estão no próprio Facebook ou em plataformas digitais alimentadas por anúncios do Facebook após a visita a esse website.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_fbp"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">prism_611277856</td><td data-column="Descrição">Esse cookie é definido pelo Active Campaign para guardar e rastrear interações no website</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="prism_611277856"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_ltuid</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ltuid"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_gcl_au</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gcl_au"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_gat_UA-191900295-1</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gat_UA-191900295-1"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_ga_011PWP31W8</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ga_011PWP31W8"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_dc_gtm_UA-191900295-1</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_dc_gtm_UA-191900295-1"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr></tbody></table></div></div><div class="c-bl"><div class="title"><div class="b-tl" role="heading" aria-level="3">Mais Informações</div></div><div class="desc"><div class="p">Seguimos a regulamentação da LGPD e por este motivo você pode solicitar mais informações sobre o uso dos seus dados, caso necessário utlize o <a class="cc-link" target="_blank" href="https://privacy.vocemaisrico.com/_f/">nosso formulário</a> e consulte também a nossa <a href="https://privacy.vocemaisrico.com/privacy/policy" class="cc-link" target="_blank">política de privacidade</a>.</div></div></div></div><div id="s-bns"><button type="button" id="s-all-bn" class="c-bn">Aceitar Todos</button><button type="button" id="s-sv-bn" class="c-bn">Salvar configuração atual</button></div></div></div></div></div></div><div id="cs-ov" style="visibility: hidden; opacity: 0;"></div></div><!--<![endif]--></div><div id="cc--main" style="position: fixed; z-index: 1000000;" class="c--anim"><!--[if lt IE 9 ]><div id="cc_div" class="cc_div ie"></div><![endif]--><!--[if (gt IE 8)|!(IE)]><!--><div id="cc_div" class="cc_div"><div id="s-cnt" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="s-ttl" class="bar left slide" style="visibility: hidden;"><div id="c-vln"><div id="cs"><div id="c-s-in"><div id="s-inr"><div id="s-hdr"><div id="s-ttl" role="heading"><div>Preferências de Cookies</div><div aria-hidden="true" style="font-size: .8em; font-weight: 200; color: #687278; margin-top: 5px;">Desenvolvido por <a tabindex="-1" aria-hidden="true" href="#" style="text-decoration: underline;">Mapa do Dinheiro Urgente</a></div></div><div id="s-c-bnc"><button type="button" id="s-c-bn" class="c-bn" aria-label="Fechar"></button></div></div><div id="s-bl"><div class="c-bl"><div class="title"><div class="b-tl" role="heading" aria-level="3">Uso de Cookies</div></div><div class="desc"><div class="p">Nosso site utiliza cookies para garantir o seu correto funcionamento e para um serviço personalizado  - Utilize o menu "Gerenciar Preferências" para configurar a coleta de cookies.</div></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-1">Cookies Obrigatórios</button></div><div class="desc b-acc" id="c-ac-1" aria-hidden="true"><div class="p">Os cookies necessários ajudam a tornar um site utilizável, permitindo funções básicas como navegação de página e acesso a áreas seguras do site. O site não pode funcionar corretamente sem esses cookies.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">G_ENABLED_IDPS</td><td data-column="Descrição">Cookie essencial utilizado para permitir a autenticação utilizando recursos do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="G_ENABLED_IDPS" disabled="" aria-readonly="true"><span class="c-tg c-ro" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Cookies Obrigatórios</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-2">Preferências</button></div><div class="desc b-acc" id="c-ac-2" aria-hidden="true"><div class="p">Os cookies preferenciais permitem que um site se lembre de informações que mudam a forma como o site se comporta ou se parece, como o seu idioma preferido ou a região em que você está.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">disqus_unique</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="disqus_unique"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr><tr><td data-column="Nome">ASP.NET_SessionId</td><td data-column="Descrição">Cookie de sessão de plataforma de uso geral, usado por sites escritos com tecnologias baseadas em Miscrosoft .NET. Normalmente usado para manter uma sessão de usuário anônima pelo servidor.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="ASP.NET_SessionId"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr><tr><td data-column="Nome">YSC</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="YSC"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-3">Estatísticas</button></div><div class="desc b-acc" id="c-ac-3" aria-hidden="true"><div class="p">Os cookies estatísticos ajudam os proprietários de sites a entender como os visitantes interagem com os sites, coletando e relatando informações anonimamente.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">_gid</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gid"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr><tr><td data-column="Nome">_ga</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ga"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr><tr><td data-column="Nome">_gat</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gat"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-4">Marketing</button></div><div class="desc b-acc" id="c-ac-4" aria-hidden="true"><div class="p">Os cookies de marketing são usados ​​para rastrear visitantes em websites. A intenção é exibir anúncios relevantes e atraentes para o usuário individual e, portanto, mais valiosos para editores e anunciantes terceirizados.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">VISITOR_INFO1_LIVE</td><td data-column="Descrição">Tenta estimar a largura de banda dos usuários em páginas com vídeos integrados do YouTube.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="VISITOR_INFO1_LIVE"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">test_cookie</td><td data-column="Descrição">Este cookie é definido pela DoubleClick (que é propriedade do Google) para determinar se o navegador do visitante do site suporta cookies.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="test_cookie"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">IDE</td><td data-column="Descrição">Este cookie é usado para segmentação, análise e otimização de campanhas publicitárias no pacote DoubleClick / Google Marketing</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="IDE"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">NID</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="NID"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">pxrc</td><td data-column="Descrição">Este cookie registra dados não pessoais sobre o visitante. A informação é usada para otimizar a relevância do anúncio.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="pxrc"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_fbp</td><td data-column="Descrição">Esse cookie é definido pelo Facebook para entregar anúncios quando eles estão no próprio Facebook ou em plataformas digitais alimentadas por anúncios do Facebook após a visita a esse website.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_fbp"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">prism_611277856</td><td data-column="Descrição">Esse cookie é definido pelo Active Campaign para guardar e rastrear interações no website</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="prism_611277856"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_ltuid</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ltuid"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_gcl_au</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gcl_au"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_gat_UA-191900295-1</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gat_UA-191900295-1"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_ga_011PWP31W8</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ga_011PWP31W8"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_dc_gtm_UA-191900295-1</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_dc_gtm_UA-191900295-1"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr></tbody></table></div></div><div class="c-bl"><div class="title"><div class="b-tl" role="heading" aria-level="3">Mais Informações</div></div><div class="desc"><div class="p">Seguimos a regulamentação da LGPD e por este motivo você pode solicitar mais informações sobre o uso dos seus dados, caso necessário utlize o <a class="cc-link" target="_blank" href="https://privacy.vocemaisrico.com/_f/">nosso formulário</a> e consulte também a nossa <a href="https://privacy.vocemaisrico.com/privacy/policy" class="cc-link" target="_blank">política de privacidade</a>.</div></div></div></div><div id="s-bns"><button type="button" id="s-all-bn" class="c-bn">Aceitar Todos</button><button type="button" id="s-sv-bn" class="c-bn">Salvar configuração atual</button></div></div></div></div></div></div><div id="cs-ov" style="visibility: hidden; opacity: 0;"></div></div><!--<![endif]--></div><div id="cc--main" style="position: fixed; z-index: 1000000;" class="c--anim"><!--[if lt IE 9 ]><div id="cc_div" class="cc_div ie"></div><![endif]--><!--[if (gt IE 8)|!(IE)]><!--><div id="cc_div" class="cc_div"><div id="s-cnt" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="s-ttl" class="bar left slide" style="visibility: hidden;"><div id="c-vln"><div id="cs"><div id="c-s-in"><div id="s-inr"><div id="s-hdr"><div id="s-ttl" role="heading"><div>Preferências de Cookies</div><div aria-hidden="true" style="font-size: .8em; font-weight: 200; color: #687278; margin-top: 5px;">Desenvolvido por <a tabindex="-1" aria-hidden="true" href="#" style="text-decoration: underline;">Mapa do Dinheiro Urgente</a></div></div><div id="s-c-bnc"><button type="button" id="s-c-bn" class="c-bn" aria-label="Fechar"></button></div></div><div id="s-bl"><div class="c-bl"><div class="title"><div class="b-tl" role="heading" aria-level="3">Uso de Cookies</div></div><div class="desc"><div class="p">Nosso site utiliza cookies para garantir o seu correto funcionamento e para um serviço personalizado  - Utilize o menu "Gerenciar Preferências" para configurar a coleta de cookies.</div></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-1">Cookies Obrigatórios</button></div><div class="desc b-acc" id="c-ac-1" aria-hidden="true"><div class="p">Os cookies necessários ajudam a tornar um site utilizável, permitindo funções básicas como navegação de página e acesso a áreas seguras do site. O site não pode funcionar corretamente sem esses cookies.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">G_ENABLED_IDPS</td><td data-column="Descrição">Cookie essencial utilizado para permitir a autenticação utilizando recursos do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="G_ENABLED_IDPS" disabled="" aria-readonly="true"><span class="c-tg c-ro" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Cookies Obrigatórios</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-2">Preferências</button></div><div class="desc b-acc" id="c-ac-2" aria-hidden="true"><div class="p">Os cookies preferenciais permitem que um site se lembre de informações que mudam a forma como o site se comporta ou se parece, como o seu idioma preferido ou a região em que você está.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">disqus_unique</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="disqus_unique"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr><tr><td data-column="Nome">ASP.NET_SessionId</td><td data-column="Descrição">Cookie de sessão de plataforma de uso geral, usado por sites escritos com tecnologias baseadas em Miscrosoft .NET. Normalmente usado para manter uma sessão de usuário anônima pelo servidor.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="ASP.NET_SessionId"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr><tr><td data-column="Nome">YSC</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="YSC"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-3">Estatísticas</button></div><div class="desc b-acc" id="c-ac-3" aria-hidden="true"><div class="p">Os cookies estatísticos ajudam os proprietários de sites a entender como os visitantes interagem com os sites, coletando e relatando informações anonimamente.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">_gid</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gid"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr><tr><td data-column="Nome">_ga</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ga"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr><tr><td data-column="Nome">_gat</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gat"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-4">Marketing</button></div><div class="desc b-acc" id="c-ac-4" aria-hidden="true"><div class="p">Os cookies de marketing são usados ​​para rastrear visitantes em websites. A intenção é exibir anúncios relevantes e atraentes para o usuário individual e, portanto, mais valiosos para editores e anunciantes terceirizados.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">VISITOR_INFO1_LIVE</td><td data-column="Descrição">Tenta estimar a largura de banda dos usuários em páginas com vídeos integrados do YouTube.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="VISITOR_INFO1_LIVE"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">test_cookie</td><td data-column="Descrição">Este cookie é definido pela DoubleClick (que é propriedade do Google) para determinar se o navegador do visitante do site suporta cookies.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="test_cookie"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">IDE</td><td data-column="Descrição">Este cookie é usado para segmentação, análise e otimização de campanhas publicitárias no pacote DoubleClick / Google Marketing</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="IDE"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">NID</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="NID"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">pxrc</td><td data-column="Descrição">Este cookie registra dados não pessoais sobre o visitante. A informação é usada para otimizar a relevância do anúncio.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="pxrc"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_fbp</td><td data-column="Descrição">Esse cookie é definido pelo Facebook para entregar anúncios quando eles estão no próprio Facebook ou em plataformas digitais alimentadas por anúncios do Facebook após a visita a esse website.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_fbp"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">prism_611277856</td><td data-column="Descrição">Esse cookie é definido pelo Active Campaign para guardar e rastrear interações no website</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="prism_611277856"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_ltuid</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ltuid"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_gcl_au</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gcl_au"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_gat_UA-191900295-1</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gat_UA-191900295-1"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_ga_011PWP31W8</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ga_011PWP31W8"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_dc_gtm_UA-191900295-1</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_dc_gtm_UA-191900295-1"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr></tbody></table></div></div><div class="c-bl"><div class="title"><div class="b-tl" role="heading" aria-level="3">Mais Informações</div></div><div class="desc"><div class="p">Seguimos a regulamentação da LGPD e por este motivo você pode solicitar mais informações sobre o uso dos seus dados, caso necessário utlize o <a class="cc-link" target="_blank" href="https://privacy.vocemaisrico.com/_f/">nosso formulário</a> e consulte também a nossa <a href="https://privacy.vocemaisrico.com/privacy/policy" class="cc-link" target="_blank">política de privacidade</a>.</div></div></div></div><div id="s-bns"><button type="button" id="s-all-bn" class="c-bn">Aceitar Todos</button><button type="button" id="s-sv-bn" class="c-bn">Salvar configuração atual</button></div></div></div></div></div></div><div id="cs-ov" style="visibility: hidden; opacity: 0;"></div></div><!--<![endif]--></div><div id="cc--main" style="position: fixed; z-index: 1000000;" class="c--anim"><!--[if lt IE 9 ]><div id="cc_div" class="cc_div ie"></div><![endif]--><!--[if (gt IE 8)|!(IE)]><!--><div id="cc_div" class="cc_div"><div id="s-cnt" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="s-ttl" class="bar left slide" style="visibility: hidden;"><div id="c-vln"><div id="cs"><div id="c-s-in"><div id="s-inr"><div id="s-hdr"><div id="s-ttl" role="heading"><div>Preferências de Cookies</div><div aria-hidden="true" style="font-size: .8em; font-weight: 200; color: #687278; margin-top: 5px;">Desenvolvido por <a tabindex="-1" aria-hidden="true" href="#" style="text-decoration: underline;">Mapa do Dinheiro Urgente</a></div></div><div id="s-c-bnc"><button type="button" id="s-c-bn" class="c-bn" aria-label="Fechar"></button></div></div><div id="s-bl"><div class="c-bl"><div class="title"><div class="b-tl" role="heading" aria-level="3">Uso de Cookies</div></div><div class="desc"><div class="p">Nosso site utiliza cookies para garantir o seu correto funcionamento e para um serviço personalizado  - Utilize o menu "Gerenciar Preferências" para configurar a coleta de cookies.</div></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-1">Cookies Obrigatórios</button></div><div class="desc b-acc" id="c-ac-1" aria-hidden="true"><div class="p">Os cookies necessários ajudam a tornar um site utilizável, permitindo funções básicas como navegação de página e acesso a áreas seguras do site. O site não pode funcionar corretamente sem esses cookies.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">G_ENABLED_IDPS</td><td data-column="Descrição">Cookie essencial utilizado para permitir a autenticação utilizando recursos do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="G_ENABLED_IDPS" disabled="" aria-readonly="true"><span class="c-tg c-ro" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Cookies Obrigatórios</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-2">Preferências</button></div><div class="desc b-acc" id="c-ac-2" aria-hidden="true"><div class="p">Os cookies preferenciais permitem que um site se lembre de informações que mudam a forma como o site se comporta ou se parece, como o seu idioma preferido ou a região em que você está.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">disqus_unique</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="disqus_unique"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr><tr><td data-column="Nome">ASP.NET_SessionId</td><td data-column="Descrição">Cookie de sessão de plataforma de uso geral, usado por sites escritos com tecnologias baseadas em Miscrosoft .NET. Normalmente usado para manter uma sessão de usuário anônima pelo servidor.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="ASP.NET_SessionId"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr><tr><td data-column="Nome">YSC</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="YSC"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Preferências</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-3">Estatísticas</button></div><div class="desc b-acc" id="c-ac-3" aria-hidden="true"><div class="p">Os cookies estatísticos ajudam os proprietários de sites a entender como os visitantes interagem com os sites, coletando e relatando informações anonimamente.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">_gid</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gid"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr><tr><td data-column="Nome">_ga</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ga"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr><tr><td data-column="Nome">_gat</td><td data-column="Descrição">ID usado para identificar usuários por 24 horas após a última atividade</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gat"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Estatísticas</span></label></td></tr></tbody></table></div></div><div class="c-bl b-ex"><div class="title b-bn"><button type="button" class="b-tl" aria-expanded="false" aria-controls="c-ac-4">Marketing</button></div><div class="desc b-acc" id="c-ac-4" aria-hidden="true"><div class="p">Os cookies de marketing são usados ​​para rastrear visitantes em websites. A intenção é exibir anúncios relevantes e atraentes para o usuário individual e, portanto, mais valiosos para editores e anunciantes terceirizados.</div><table><thead><tr><th scope="col">Nome</th><th scope="col">Descrição</th></tr></thead><tbody><tr><td data-column="Nome">VISITOR_INFO1_LIVE</td><td data-column="Descrição">Tenta estimar a largura de banda dos usuários em páginas com vídeos integrados do YouTube.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="VISITOR_INFO1_LIVE"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">test_cookie</td><td data-column="Descrição">Este cookie é definido pela DoubleClick (que é propriedade do Google) para determinar se o navegador do visitante do site suporta cookies.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="test_cookie"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">IDE</td><td data-column="Descrição">Este cookie é usado para segmentação, análise e otimização de campanhas publicitárias no pacote DoubleClick / Google Marketing</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="IDE"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">NID</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="NID"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">pxrc</td><td data-column="Descrição">Este cookie registra dados não pessoais sobre o visitante. A informação é usada para otimizar a relevância do anúncio.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="pxrc"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_fbp</td><td data-column="Descrição">Esse cookie é definido pelo Facebook para entregar anúncios quando eles estão no próprio Facebook ou em plataformas digitais alimentadas por anúncios do Facebook após a visita a esse website.</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_fbp"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">prism_611277856</td><td data-column="Descrição">Esse cookie é definido pelo Active Campaign para guardar e rastrear interações no website</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="prism_611277856"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_ltuid</td><td data-column="Descrição"></td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ltuid"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_gcl_au</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gcl_au"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_gat_UA-191900295-1</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_gat_UA-191900295-1"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_ga_011PWP31W8</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_ga_011PWP31W8"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr><tr><td data-column="Nome">_dc_gtm_UA-191900295-1</td><td data-column="Descrição">Esses cookies são usados ​​para coletar estatísticas do site e rastrear taxas de conversão e personalização de anúncios do Google</td><td data-column="Ativo" class="td-swt"><label class="b-tg"><input class="c-tgl" type="checkbox" value="_dc_gtm_UA-191900295-1"><span class="c-tg" aria-hidden="true"><span class="on-i"></span><span class="off-i"></span></span><span class="t-lb">Marketing</span></label></td></tr></tbody></table></div></div><div class="c-bl"><div class="title"><div class="b-tl" role="heading" aria-level="3">Mais Informações</div></div><div class="desc"><div class="p">Seguimos a regulamentação da LGPD e por este motivo você pode solicitar mais informações sobre o uso dos seus dados, caso necessário utlize o <a class="cc-link" target="_blank" href="https://privacy.vocemaisrico.com/_f/">nosso formulário</a> e consulte também a nossa <a href="https://privacy.vocemaisrico.com/privacy/policy" class="cc-link" target="_blank">política de privacidade</a>.</div></div></div></div><div id="s-bns"><button type="button" id="s-all-bn" class="c-bn">Aceitar Todos</button><button type="button" id="s-sv-bn" class="c-bn">Salvar configuração atual</button></div></div></div></div></div></div><div id="cs-ov" style="visibility: hidden; opacity: 0;"></div></div><!--<![endif]--></div></body></html>
